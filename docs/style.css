@@ -1,0 +1,58 @@
+.markdown-section code,
+.markdown-section p.tip code {
+  color: #fff7b2;
+  font-size: inherit !important;
+  font-weight: bold;
+}
+
+.markdown-section strong {
+  color: #fff7b2;
+}
+
+.markdown-section p + ul,
+.markdown-section p + ol {
+  margin-top: -1rem;
+}
+
+.sidebar,
+.app-nav {
+  user-select: none;
+}
+
+.app-nav {
+  position: fixed;
+}
+
+.app-nav.app-nav.app-nav ul,
+.app-nav.app-nav.app-nav ul li {
+  position: relative;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 !important;
+}
+
+.vue-diction-symbol {
+  display: inline-block;
+  color: #999;
+  margin: 0 3px;
+}
+
+.vocabulary {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.vocabulary > div,
+.vocabulary > span {
+  margin-bottom: 8px;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  margin: 40px 0 0.6rem;
+  font-weight: 600;
+}
+
+table tr th {
+  white-space: nowrap;
+}
